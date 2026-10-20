@@ -13,17 +13,47 @@ const appsData = [
     name: "My Tuition Fees",
     category: "Education",
     categoryClass: "badge-education",
+    status: "live",
+    statusLabel: "Available on Google Play",
     tagline: "Manage Your Tuition Fees Easily",
-    packageName: "com.code13studios.mytuitionfees",
-    totalDownloads: "10,000+",
-    activeDevices: "8,450+",
-    activeUsers: "7,200+",
-    rating: "4.8",
+    developer: "Pratap Mondal",
+    storeName: "Code 13 Studios",
+    packageName: "com.pratap.mytuitionfees",
+    totalDownloads: "2.85K+",
+    downloadsLabel: "Total Installs",
+    downloadsTrend: "↑ 1.11K recent",
+    activeDevices: "1.11K+",
+    devicesLabel: "Active Devices",
+    devicesTrend: "↑ 81% average",
+    activeUsers: "1.55K+",
+    usersLabel: "Monthly Active Users",
+    usersTrend: "347 daily avg (↑ 54%)",
+    rating: "4.81",
+    ratingLabel: "Google Play Rating",
+    ratingTrend: "Top 5% in Education",
     contentRating: "Everyone (3+)",
+    crashRate: "0.20% (99.8% Crash-Free)",
+    anrRate: "0.02% (Ultra Responsive)",
+    conversionRate: "43.9% Average",
+    audienceGrowth: "108% Average",
+    kpis: [
+      { label: "Total Installs", value: "2.85K", trend: "↑ 1.11K", trendType: "up", note: "" },
+      { label: "Active Devices", value: "1.11K", trend: "↑ 81%", trendType: "up", note: "avg" },
+      { label: "Daily Active Users", value: "347", trend: "↑ 54%", trendType: "up", note: "avg" },
+      { label: "Monthly Active Users", value: "1.55K", trend: "↑ 74%", trendType: "up", note: "avg" },
+      { label: "Google Play Rating", value: "4.81 ★", trend: "4.81 avg", trendType: "up", note: "rating" },
+      { label: "Crash Rate", value: "0.20%", trend: "99.8% Safe", trendType: "safe", note: "avg" },
+      { label: "ANR Rate", value: "0.02%", trend: "0.00pp", trendType: "safe", note: "avg" },
+      { label: "Store Conversion", value: "43.9%", trend: "High Intent", trendType: "up", note: "avg" },
+      { label: "Audience Growth", value: "108%", trend: "Fast Growth", trendType: "up", note: "avg" },
+      { label: "Daily Store Visitors", value: "93.8", trend: "↑ 18%", trendType: "up", note: "avg" },
+      { label: "User Acquisitions", value: "44.9", trend: "↑ 7%", trendType: "up", note: "avg" },
+      { label: "Store Acquisitions", value: "41.2", trend: "↑ 7%", trendType: "up", note: "avg" }
+    ],
     description: "My Tuition Fees is an all-in-one productivity tool tailored for private tutors, coaching centres, home teachers, and educational mentors. It streamlines student fee collection, batch scheduling, payment records, and monthly financial summaries so you can dedicate more time to teaching.",
     shortDescription: "Manage your tuition fees, students, batches and more — all in one place.",
     icon: "assets/apps/my-tuition-fees.png",
-    playStore: "https://play.google.com/store/apps/details?id=com.code13studios.mytuitionfees",
+    playStore: "https://play.google.com/store/apps/details?id=com.pratap.mytuitionfees",
     features: [
       "Student Management",
       "Batch & Class Management",
@@ -65,17 +95,47 @@ const appsData = [
     name: "Next Hair Cut",
     category: "Lifestyle",
     categoryClass: "badge-lifestyle-purple",
+    status: "live",
+    statusLabel: "Available on Google Play",
     tagline: "Book Your Favorite Men's Salon",
-    packageName: "com.code13studios.nexthaircut",
-    totalDownloads: "5,000+",
-    activeDevices: "4,150+",
-    activeUsers: "3,800+",
-    rating: "4.7",
+    developer: "Rahul Biswas",
+    storeName: "Code 13 Studios",
+    packageName: "com.nexthaircut.app",
+    totalDownloads: "27+",
+    downloadsLabel: "Total Installs",
+    downloadsTrend: "↑ 20 recent",
+    activeDevices: "10.2",
+    devicesLabel: "Active Devices",
+    devicesTrend: "10.2 average",
+    activeUsers: "5.07",
+    usersLabel: "Monthly Active Users",
+    usersTrend: "0.54 daily avg (↑ 275%)",
+    rating: "5.0",
+    ratingLabel: "Daily Average Rating",
+    ratingTrend: "5.0 ★ Top Rating",
     contentRating: "Teen (12+)",
+    crashRate: "0.00% (100% Crash-Free)",
+    anrRate: "0.00% (Ultra Responsive)",
+    conversionRate: "9.96% Average",
+    audienceGrowth: "-13.77% Average",
+    kpis: [
+      { label: "Total Installs", value: "27", trend: "↑ 20", trendType: "up", note: "" },
+      { label: "Active Devices", value: "10.2", trend: "10.2 avg", trendType: "neutral", note: "avg" },
+      { label: "Daily Active Users", value: "0.54", trend: "↑ 275%", trendType: "up", note: "avg" },
+      { label: "Monthly Active Users", value: "5.07", trend: "5.07 avg", trendType: "neutral", note: "avg" },
+      { label: "Daily Average Rating", value: "5.0 ★", trend: "5.0 avg", trendType: "up", note: "rating" },
+      { label: "Store Conversion", value: "9.96%", trend: "↑ +8.18pp", trendType: "up", note: "avg" },
+      { label: "Store Visitors", value: "3.04", trend: "↑ 372%", trendType: "up", note: "avg" },
+      { label: "User Acquisitions", value: "0.75", trend: "↑ >999%", trendType: "up", note: "avg" },
+      { label: "Store Acquisitions", value: "0.54", trend: "↑ >999%", trendType: "up", note: "avg" },
+      { label: "Total Audience", value: "9.89", trend: "9.89 avg", trendType: "neutral", note: "avg" },
+      { label: "Crash Rate", value: "0.00%", trend: "100% Safe", trendType: "safe", note: "0 crashes" },
+      { label: "ANR Rate", value: "0.00%", trend: "0.00pp", trendType: "safe", note: "0 ANRs" }
+    ],
     description: "Next Hair Cut connects men with premier neighborhood hair salons, barber studios, and grooming professionals. Browse top salons, view service rate cards, select your favorite barber, and book your grooming slot in advance without wasting time in long queues.",
     shortDescription: "Book your favorite men's salon and get the best grooming experience.",
     icon: "assets/apps/next-hair-cut.png",
-    playStore: "https://play.google.com/store/apps/details?id=com.code13studios.nexthaircut",
+    playStore: "https://play.google.com/store/apps/details?id=com.nexthaircut.app",
     features: [
       "Salon Discovery & Neighborhood Search",
       "Real-time Queue & Slot Booking",
@@ -112,17 +172,33 @@ const appsData = [
     name: "Abacus : Mental Math",
     category: "Education",
     categoryClass: "badge-education",
+    status: "closed-testing",
+    statusLabel: "Closed Testing",
     tagline: "Master Mental Math & Fast Calculations",
-    packageName: "com.code13studios.abacusmentalmath",
-    totalDownloads: "15,000+",
-    activeDevices: "12,800+",
-    activeUsers: "11,500+",
-    rating: "4.9",
+    developer: "Pratap Mondal",
+    storeName: "Code 13 Studios",
+    packageName: "com.pratap.abacusmentalmath",
+    totalDownloads: "Closed Beta",
+    downloadsLabel: "Release Stage",
+    downloadsTrend: "Closed Testing Track",
+    activeDevices: "Active Group",
+    devicesLabel: "Active Testers",
+    devicesTrend: "Internal QA",
+    activeUsers: "Android 8.0+",
+    usersLabel: "Target OS",
+    usersTrend: "Child & Family Safe",
+    rating: "Testing",
+    ratingLabel: "Testing Stage",
+    ratingTrend: "Beta Feedback Open",
     contentRating: "Everyone (Child & Family Safe)",
+    crashRate: "Testing Stability Track",
+    anrRate: "0.00% in testing",
+    conversionRate: "Closed Opt-in Track",
+    kpis: [],
     description: "Abacus : Mental Math helps children, school students, and math enthusiasts master rapid mental calculations using the traditional Soroban abacus methodology. Strengthen arithmetic reflexes, improve visual memory, and boost concentration with guided drills.",
     shortDescription: "Learn abacus and master fast mental calculations with interactive drills.",
-    icon: "assets/apps/abacus-icon.png",
-    playStore: "https://play.google.com/store/apps/details?id=com.code13studios.abacusmentalmath",
+    icon: "assets/apps/abacus-math.png",
+    playStore: "https://play.google.com/store/apps/details?id=com.pratap.abacusmentalmath",
     features: [
       "Interactive Virtual Soroban Abacus",
       "Step-by-Step Bead Counting Tutorials",
@@ -159,13 +235,29 @@ const appsData = [
     name: "Offline Arena",
     category: "Games",
     categoryClass: "badge-games",
+    status: "coming-soon",
+    statusLabel: "Coming Soon",
     tagline: "Play Exciting Offline Games",
+    developer: "Pratap Mondal",
+    storeName: "Code 13 Studios",
     packageName: "com.code13studios.offlinearena",
-    totalDownloads: "25,000+",
-    activeDevices: "21,500+",
-    activeUsers: "19,800+",
-    rating: "4.8",
+    totalDownloads: "Coming Soon",
+    downloadsLabel: "Release Status",
+    downloadsTrend: "Target: Q4 2026",
+    activeDevices: "In Development",
+    devicesLabel: "Engineering Phase",
+    devicesTrend: "Silky 60 FPS Native",
+    activeUsers: "100% Offline",
+    usersLabel: "Connectivity",
+    usersTrend: "Zero Mobile Data",
+    rating: "Upcoming",
+    ratingLabel: "Data Safety",
+    ratingTrend: "Zero Sign-in / 100% Private",
     contentRating: "Everyone (3+)",
+    crashRate: "Target: 99.9% Crash-Free",
+    anrRate: "Target: Ultra Low (0.00%)",
+    conversionRate: "Upcoming on Google Play",
+    kpis: [],
     description: "Offline Arena provides a rich collection of addictive mini-games, logic challenges, memory puzzles, and arcade favorites that you can play anytime, anywhere without an active internet connection or mobile data.",
     shortDescription: "Play exciting offline games anytime, anywhere — no internet needed.",
     icon: "assets/apps/offline-arena.png",
@@ -265,18 +357,42 @@ function createAppCardElement(app) {
   const iconSrc = resolveAssetUrl(app.icon);
   const detailsHref = resolveDetailsUrl(app.id);
 
+  let statusBadgeHtml = '';
+  if (app.status === 'coming-soon') {
+    statusBadgeHtml = `<span class="app-card-status-pill badge-status-coming-soon">Coming Soon</span>`;
+  } else if (app.status === 'closed-testing') {
+    statusBadgeHtml = `<span class="app-card-status-pill badge-status-testing">Closed Testing</span>`;
+  }
+
+  let actionBtnHtml = '';
+  if (app.status === 'coming-soon') {
+    actionBtnHtml = `<span class="app-card-status-btn btn-coming-soon" aria-disabled="true">Coming Soon</span>`;
+  } else if (app.status === 'closed-testing') {
+    actionBtnHtml = `
+      <a href="${app.playStore}" class="app-card-link link-testing" target="_blank" rel="noopener noreferrer" aria-label="Closed Testing on Google Play" onclick="event.stopPropagation();">
+        ${googlePlayIconSvg}
+        <span>Closed Testing →</span>
+      </a>`;
+  } else {
+    actionBtnHtml = `
+      <a href="${app.playStore}" class="app-card-link" target="_blank" rel="noopener noreferrer" aria-label="View ${app.name} on Google Play" onclick="event.stopPropagation();">
+        ${googlePlayIconSvg}
+        <span>View on Play Store →</span>
+      </a>`;
+  }
+
   card.innerHTML = `
     <div class="app-card-icon-wrap">
       <img src="${iconSrc}" alt="${app.name} icon" class="app-card-icon" width="60" height="60" loading="lazy">
     </div>
     <h3 class="app-card-name">${app.name}</h3>
     <p class="app-card-desc">${app.shortDescription}</p>
-    <span class="app-card-category ${app.categoryClass}">${app.category}</span>
+    <div class="app-card-meta-row">
+      <span class="app-card-category ${app.categoryClass}">${app.category}</span>
+      ${statusBadgeHtml}
+    </div>
     <div class="app-card-footer">
-      <a href="${app.playStore}" class="app-card-link" target="_blank" rel="noopener noreferrer" aria-label="View ${app.name} on Google Play" onclick="event.stopPropagation();">
-        ${googlePlayIconSvg}
-        <span>View on Play Store →</span>
-      </a>
+      ${actionBtnHtml}
       <a href="${detailsHref}" class="app-details-btn-mini" aria-label="Learn more about ${app.name}" onclick="event.stopPropagation();">
         Details
       </a>
@@ -396,25 +512,123 @@ function populateAppDetails() {
   if (pkgNameEl) {
     pkgNameEl.textContent = app.packageName || `com.code13studios.${app.id.replace(/-/g, '')}`;
   }
+  // Handle Play Store / Coming Soon / Closed Testing CTA Button
   if (playBtnEl) {
-    playBtnEl.href = app.playStore;
+    if (app.status === "coming-soon") {
+      playBtnEl.href = "javascript:void(0)";
+      playBtnEl.className = "btn-play-large is-coming-soon";
+      playBtnEl.removeAttribute("target");
+      playBtnEl.setAttribute("aria-disabled", "true");
+      playBtnEl.innerHTML = `
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <span>Coming Soon on Google Play</span>
+      `;
+    } else if (app.status === "closed-testing") {
+      playBtnEl.href = app.playStore;
+      playBtnEl.className = "btn-play-large is-testing";
+      playBtnEl.setAttribute("target", "_blank");
+      playBtnEl.removeAttribute("aria-disabled");
+      playBtnEl.innerHTML = `
+        ${googlePlayIconSvg}
+        <span>Join Closed Testing</span>
+      `;
+    } else {
+      playBtnEl.href = app.playStore;
+      playBtnEl.className = "btn-play-large";
+      playBtnEl.setAttribute("target", "_blank");
+      playBtnEl.removeAttribute("aria-disabled");
+      playBtnEl.innerHTML = `
+        ${googlePlayIconSvg}
+        <span>Get on Google Play</span>
+      `;
+    }
   }
+
   if (privacyBtnEl) {
     privacyBtnEl.href = resolvePrivacyUrl(app.id);
   }
 
-  // Rating & Key Metrics
-  const ratingValEl = document.getElementById("detail-rating-val");
-  if (ratingValEl) ratingValEl.textContent = app.rating || "4.8";
+  // Handle Hero Rating / Status Badge
+  const ratingWrapEl = document.getElementById("detail-app-rating");
+  if (ratingWrapEl) {
+    if (app.status === "coming-soon") {
+      ratingWrapEl.innerHTML = `
+        <span class="app-detail-status-pill status-coming-soon">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Coming Soon
+        </span>
+      `;
+    } else if (app.status === "closed-testing") {
+      ratingWrapEl.innerHTML = `
+        <span class="app-detail-status-pill status-testing">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"></path><path d="M8.5 2h7"></path><path d="M7 16h10"></path></svg>
+          Closed Testing
+        </span>
+      `;
+    } else {
+      ratingWrapEl.innerHTML = `
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="#F59E0B" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <strong id="detail-rating-val">${app.rating || "4.8"}</strong> (${app.ratingLabel || "Google Play"})
+      `;
+    }
+  }
 
+  // 4 Top Metrics Cards
   const totalDownloadsEl = document.getElementById("detail-total-downloads");
   if (totalDownloadsEl) totalDownloadsEl.textContent = app.totalDownloads || "10,000+";
+  const downloadsLabelEl = document.getElementById("detail-downloads-label");
+  if (downloadsLabelEl && app.downloadsLabel) downloadsLabelEl.textContent = app.downloadsLabel;
+  const downloadsTrendEl = document.getElementById("detail-downloads-trend");
+  if (downloadsTrendEl) downloadsTrendEl.textContent = app.downloadsTrend || "";
 
   const activeDevicesEl = document.getElementById("detail-active-devices");
   if (activeDevicesEl) activeDevicesEl.textContent = app.activeDevices || "8,450+";
+  const devicesLabelEl = document.getElementById("detail-devices-label");
+  if (devicesLabelEl && app.devicesLabel) devicesLabelEl.textContent = app.devicesLabel;
+  const devicesTrendEl = document.getElementById("detail-devices-trend");
+  if (devicesTrendEl) devicesTrendEl.textContent = app.devicesTrend || "";
 
   const activeUsersEl = document.getElementById("detail-active-users");
   if (activeUsersEl) activeUsersEl.textContent = app.activeUsers || "7,200+";
+  const usersLabelEl = document.getElementById("detail-users-label");
+  if (usersLabelEl && app.usersLabel) usersLabelEl.textContent = app.usersLabel;
+  const usersTrendEl = document.getElementById("detail-users-trend");
+  if (usersTrendEl) usersTrendEl.textContent = app.usersTrend || "";
+
+  const ratingCardVal = document.getElementById("detail-rating-card-val");
+  if (ratingCardVal) {
+    if (app.status === "coming-soon") {
+      ratingCardVal.textContent = "100% Offline";
+    } else if (app.status === "closed-testing") {
+      ratingCardVal.textContent = "Closed Beta";
+    } else {
+      ratingCardVal.textContent = `${app.rating || "4.8"} ★`;
+    }
+  }
+  const ratingCardLabel = document.getElementById("detail-rating-card-label");
+  if (ratingCardLabel && app.ratingLabel) ratingCardLabel.textContent = app.ratingLabel;
+  const ratingCardSub = document.getElementById("detail-rating-card-sub");
+  if (ratingCardSub) ratingCardSub.textContent = app.ratingTrend || "Verified Reviews";
+
+  // Populate Google Play Console KPI Grid
+  const kpiContainer = document.getElementById("kpi-items-container");
+  const kpiSectionCard = document.getElementById("detail-kpi-card");
+  if (kpiContainer) {
+    if (app.kpis && app.kpis.length > 0) {
+      if (kpiSectionCard) kpiSectionCard.style.display = "block";
+      kpiContainer.innerHTML = app.kpis.map(kpi => `
+        <div class="kpi-metric-item">
+          <div class="kpi-item-top">
+            <span class="kpi-item-val">${kpi.value} ${kpi.note ? `<small style="font-size:0.72rem;font-weight:600;color:var(--color-muted-text);text-transform:lowercase;">${kpi.note}</small>` : ''}</span>
+            <span class="kpi-item-trend trend-${kpi.trendType || 'up'}">${kpi.trend}</span>
+          </div>
+          <span class="kpi-item-label">${kpi.label}</span>
+        </div>
+      `).join("");
+    } else {
+      if (kpiSectionCard) kpiSectionCard.style.display = "none";
+    }
+  }
 
   // Populate About Text
   const aboutLeadEl = document.getElementById("detail-about-lead");
@@ -452,6 +666,12 @@ function populateAppDetails() {
   }
 
   // Populate Specifications Sidebar
+  const specDev = document.getElementById("spec-developer");
+  if (specDev) specDev.textContent = app.developer || (app.id === "next-hair-cut" ? "Rahul Biswas" : "Pratap Mondal");
+
+  const specStore = document.getElementById("spec-store-name");
+  if (specStore) specStore.textContent = app.storeName || "Code 13 Studios";
+
   const specCategory = document.getElementById("spec-category");
   if (specCategory) specCategory.textContent = app.category;
 
@@ -460,6 +680,15 @@ function populateAppDetails() {
 
   const specContentRating = document.getElementById("spec-content-rating");
   if (specContentRating) specContentRating.textContent = app.contentRating || "Everyone (3+)";
+
+  const specCrashRate = document.getElementById("spec-crash-rate");
+  if (specCrashRate) specCrashRate.textContent = app.crashRate || "0.20% (99.8% Crash-Free)";
+
+  const specAnrRate = document.getElementById("spec-anr-rate");
+  if (specAnrRate) specAnrRate.textContent = app.anrRate || "0.02% (Ultra Responsive)";
+
+  const specConversion = document.getElementById("spec-conversion-rate");
+  if (specConversion) specConversion.textContent = app.conversionRate || "43.9% Average";
 
   const specPrivacyLink = document.getElementById("spec-privacy-link");
   if (specPrivacyLink) specPrivacyLink.href = resolvePrivacyUrl(app.id);
@@ -705,6 +934,80 @@ function setupPrivacyDropdown() {
   });
 }
 
+// Calculate and update Home Page Journey stats dynamically from all apps
+function updateHomeJourneyStats() {
+  const totalDownloadsEl = document.getElementById("journey-total-downloads");
+  if (!totalDownloadsEl) return;
+
+  let totalNumericDownloads = 0;
+  let totalNumericDevices = 0;
+  let totalNumericUsers = 0;
+
+  APPS_DATA.forEach(app => {
+    // Total Downloads
+    if (app.totalDownloads) {
+      const cleanDownloads = app.totalDownloads.replace("+", "").trim().toLowerCase();
+      if (cleanDownloads.endsWith("k")) {
+        const val = parseFloat(cleanDownloads.replace("k", ""));
+        if (!isNaN(val)) totalNumericDownloads += val * 1000;
+      } else {
+        const val = parseFloat(cleanDownloads);
+        if (!isNaN(val)) totalNumericDownloads += val;
+      }
+    }
+
+    // Active Devices
+    if (app.activeDevices) {
+      const cleanDevices = app.activeDevices.replace("+", "").trim().toLowerCase();
+      if (cleanDevices.endsWith("k")) {
+        const val = parseFloat(cleanDevices.replace("k", ""));
+        if (!isNaN(val)) totalNumericDevices += val * 1000;
+      } else {
+        const val = parseFloat(cleanDevices);
+        if (!isNaN(val)) totalNumericDevices += val;
+      }
+    }
+
+    // Monthly Active Users
+    if (app.activeUsers) {
+      const cleanUsers = app.activeUsers.replace("+", "").trim().toLowerCase();
+      if (cleanUsers.endsWith("k")) {
+        const val = parseFloat(cleanUsers.replace("k", ""));
+        if (!isNaN(val)) totalNumericUsers += val * 1000;
+      } else {
+        const val = parseFloat(cleanUsers);
+        if (!isNaN(val)) totalNumericUsers += val;
+      }
+    }
+  });
+
+  if (totalNumericDownloads > 0) {
+    if (totalNumericDownloads >= 1000) {
+      totalDownloadsEl.textContent = (totalNumericDownloads / 1000).toFixed(2).replace(/\.?0+$/, "") + "K+";
+    } else {
+      totalDownloadsEl.textContent = totalNumericDownloads + "+";
+    }
+  }
+
+  const activeDevicesEl = document.getElementById("journey-active-devices");
+  if (activeDevicesEl && totalNumericDevices > 0) {
+    if (totalNumericDevices >= 1000) {
+      activeDevicesEl.textContent = (totalNumericDevices / 1000).toFixed(2).replace(/\.?0+$/, "") + "K+";
+    } else {
+      activeDevicesEl.textContent = Math.round(totalNumericDevices).toString();
+    }
+  }
+
+  const activeUsersEl = document.getElementById("journey-active-users");
+  if (activeUsersEl && totalNumericUsers > 0) {
+    if (totalNumericUsers >= 1000) {
+      activeUsersEl.textContent = (totalNumericUsers / 1000).toFixed(2).replace(/\.?0+$/, "") + "K+";
+    } else {
+      activeUsersEl.textContent = Math.round(totalNumericUsers).toString();
+    }
+  }
+}
+
 // ==========================================================================
 // 8. Initialization
 // ==========================================================================
@@ -718,4 +1021,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setupLightbox();
   setupPrivacyTabs();
   setupPrivacyDropdown();
+  updateHomeJourneyStats();
 });

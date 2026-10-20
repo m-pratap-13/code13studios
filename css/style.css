@@ -1224,6 +1224,43 @@ ul, ol {
   border: 1px solid #99F6E4;
 }
 
+/* Card Meta Badges Row */
+.app-card-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.app-card-meta-row .app-card-category {
+  margin-bottom: 0;
+}
+
+.app-card-status-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.badge-status-coming-soon {
+  background: #FFFBEB;
+  color: #B45309;
+  border: 1px solid #FDE68A;
+}
+
+.badge-status-testing {
+  background: #F5F3FF;
+  color: #6D28D9;
+  border: 1px solid #DDD6FE;
+}
+
 /* Card Bottom Action Link */
 .app-card-footer {
   display: flex;
@@ -1231,6 +1268,19 @@ ul, ol {
   justify-content: space-between;
   padding-top: 14px;
   border-top: 1px solid #F1F6FD;
+}
+
+.app-card-status-btn.btn-coming-soon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #94A3B8;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: default;
 }
 
 .app-card-link {
@@ -1853,6 +1903,28 @@ ul, ol {
   font-weight: 600;
 }
 
+.app-detail-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+}
+
+.app-detail-status-pill.status-coming-soon {
+  background: #FFFBEB;
+  color: #B45309;
+  border: 1px solid #FDE68A;
+}
+
+.app-detail-status-pill.status-testing {
+  background: #F5F3FF;
+  color: #6D28D9;
+  border: 1px solid #DDD6FE;
+}
+
 .app-detail-name {
   font-size: 2.15rem;
   font-weight: 800;
@@ -1921,6 +1993,30 @@ ul, ol {
   transform: translateY(-2px);
   box-shadow: 0 10px 24px rgba(9, 105, 246, 0.38);
   color: #FFFFFF;
+}
+
+.btn-play-large.is-coming-soon {
+  background: #F1F5F9;
+  color: #64748B;
+  border: 1px solid #CBD5E1;
+  box-shadow: none;
+  cursor: default;
+}
+
+.btn-play-large.is-coming-soon:hover {
+  transform: none;
+  box-shadow: none;
+  background: #F1F5F9;
+  color: #64748B;
+}
+
+.btn-play-large.is-testing {
+  background: linear-gradient(135deg, #0969F6 0%, #7C3AED 100%);
+  box-shadow: 0 6px 18px rgba(124, 58, 237, 0.28);
+}
+
+.btn-play-large.is-testing:hover {
+  box-shadow: 0 10px 24px rgba(124, 58, 237, 0.38);
 }
 
 .btn-privacy-detail {
@@ -2023,6 +2119,16 @@ ul, ol {
   margin-top: 2px;
 }
 
+.metric-trend {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #059669;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 4px;
+}
+
 /* Content Layout (Main + Sidebar) */
 .app-content-layout {
   display: grid;
@@ -2083,6 +2189,155 @@ ul, ol {
   font-size: 0.96rem;
   color: var(--color-navy-text);
   line-height: 1.7;
+}
+
+/* ==========================================================================
+   Google Play Console KPI Performance Card
+   ========================================================================== */
+.kpi-performance-card {
+  border-color: #DBEAFE;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F9FBFE 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi-performance-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0969F6, #00E676, #FFD600);
+}
+
+.kpi-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.kpi-icon-box {
+  background: #EFF6FF;
+  color: #0969F6;
+  border: 1px solid #BFDBFE;
+}
+
+.kpi-header-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.kpi-header-titles .details-card-title {
+  font-size: 1.16rem;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.kpi-period-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-muted-text);
+  margin-top: 2px;
+}
+
+.kpi-verified-pill {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #059669;
+  background: #ECFDF5;
+  border: 1px solid #A7F3D0;
+  padding: 5px 12px;
+  border-radius: 999px;
+  letter-spacing: 0.01em;
+}
+
+.kpi-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.kpi-metric-item {
+  background: #FFFFFF;
+  border: 1px solid #E5EEF9;
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(11, 31, 68, 0.03);
+  transition: all var(--transition-fast);
+}
+
+.kpi-metric-item:hover {
+  border-color: #93C5FD;
+  box-shadow: 0 4px 14px rgba(9, 105, 246, 0.08);
+  transform: translateY(-2px);
+}
+
+.kpi-item-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.kpi-item-val {
+  font-size: 1.28rem;
+  font-weight: 800;
+  color: var(--color-navy-dark);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.kpi-item-trend {
+  font-size: 0.74rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.trend-up {
+  color: #047857;
+  background: #ECFDF5;
+  border: 1px solid #A7F3D0;
+}
+
+.trend-safe {
+  color: #1D4ED8;
+  background: #EFF6FF;
+  border: 1px solid #BFDBFE;
+}
+
+.trend-neutral {
+  color: #B45309;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+}
+
+.trend-down {
+  color: #B91C1C;
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+}
+
+.kpi-item-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-muted-text);
+  line-height: 1.3;
 }
 
 /* Detailed Features Cards Grid */
@@ -2840,6 +3095,21 @@ ul, ol {
   .features-cards-grid {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .kpi-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .kpi-verified-pill {
+    margin-left: 0;
+  }
+
+  .kpi-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
   /* Footer Mobile */
