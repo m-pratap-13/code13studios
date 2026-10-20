@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="nuroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="30" fill="url(#nuroGrad)"/>
+  <!-- Location Pin with inner dot -->
+  <path d="M60 28C47.8 28 38 37.8 38 50C38 66 60 88 60 88C60 88 82 66 82 50C82 37.8 72.2 28 60 28Z" fill="#FFFFFF"/>
+  <circle cx="60" cy="48" r="7" fill="#059669"/>
+  <!-- Subtle landscape/mountain contours at bottom -->
+  <path d="M26 94L46 76L62 90L78 78L96 94H26Z" fill="#FFFFFF" fill-opacity="0.3"/>
+</svg>

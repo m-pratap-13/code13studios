@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 640" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="payHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1976D2"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+    <filter id="cardSh3" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+
+  <!-- Screen BG -->
+  <rect width="320" height="640" rx="36" fill="#F4F7FC"/>
+
+  <!-- Status Bar -->
+  <rect width="320" height="40" rx="36" fill="#1565C0"/>
+  <rect width="320" height="20" fill="#1565C0"/>
+  <text x="24" y="26" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">9:41</text>
+  <rect x="120" y="8" width="80" height="18" rx="9" fill="#0A2540"/>
+  <circle cx="282" cy="22" r="3" fill="#FFFFFF"/>
+  <path d="M294 18H304V26H294V18Z" fill="#FFFFFF"/>
+
+  <!-- App Header -->
+  <rect y="40" width="320" height="60" fill="url(#payHeader)"/>
+  <text x="20" y="76" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="16" font-weight="700">Payments</text>
+  <circle cx="285" cy="72" r="16" fill="#FFFFFF" fill-opacity="0.2"/>
+  <path d="M280 72H290M285 67V77" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Payment Mode Tabs (Cash | Online) -->
+  <g transform="translate(16, 114)">
+    <rect width="288" height="42" rx="10" fill="#E2E8F0"/>
+    <!-- Active Cash Tab -->
+    <rect x="4" y="4" width="138" height="34" rx="8" fill="#FFFFFF" filter="url(#cardSh3)"/>
+    <text x="73" y="25" text-anchor="middle" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">Cash</text>
+    <!-- Inactive Online Tab -->
+    <text x="215" y="25" text-anchor="middle" fill="#64748B" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Online</text>
+  </g>
+
+  <!-- Month Summary Card -->
+  <g transform="translate(16, 172)">
+    <rect width="288" height="88" rx="14" fill="#FFFFFF" filter="url(#cardSh3)"/>
+    <text x="20" y="30" fill="#64748B" font-family="-apple-system, sans-serif" font-size="11">TOTAL COLLECTED (APRIL 2026)</text>
+    <text x="20" y="62" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="24" font-weight="800">₹46,500</text>
+    <rect x="206" y="24" width="66" height="24" rx="12" fill="#DCFCE7"/>
+    <text x="239" y="40" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">82% Recv</text>
+  </g>
+
+  <!-- Recent Transactions Section -->
+  <text x="20" y="284" fill="#64748B" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">RECENT PAYMENT RECORDS</text>
+
+  <!-- Transaction 1: April 2026 Rahul Das -->
+  <g transform="translate(16, 296)">
+    <rect width="288" height="74" rx="14" fill="#FFFFFF" filter="url(#cardSh3)"/>
+    <circle cx="36" cy="37" r="18" fill="#DCFCE7"/>
+    <text x="36" y="42" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">₹</text>
+    <text x="66" y="32" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Rahul Das</text>
+    <text x="66" y="48" fill="#64748B" font-family="-apple-system, sans-serif" font-size="11">April 2026 • Monthly Fee</text>
+    <text x="272" y="32" text-anchor="end" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">₹2,000</text>
+    <rect x="230" y="40" width="42" height="18" rx="9" fill="#DCFCE7"/>
+    <text x="251" y="52" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="9" font-weight="700">Paid</text>
+  </g>
+
+  <!-- Transaction 2: Suman Roy -->
+  <g transform="translate(16, 380)">
+    <rect width="288" height="74" rx="14" fill="#FFFFFF" filter="url(#cardSh3)"/>
+    <circle cx="36" cy="37" r="18" fill="#DCFCE7"/>
+    <text x="36" y="42" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">₹</text>
+    <text x="66" y="32" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Suman Roy</text>
+    <text x="66" y="48" fill="#64748B" font-family="-apple-system, sans-serif" font-size="11">March 2026 • Monthly Fee</text>
+    <text x="272" y="32" text-anchor="end" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">₹1,500</text>
+    <rect x="230" y="40" width="42" height="18" rx="9" fill="#DCFCE7"/>
+    <text x="251" y="52" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="9" font-weight="700">Paid</text>
+  </g>
+
+  <!-- Transaction 3: Priya Sahu -->
+  <g transform="translate(16, 464)">
+    <rect width="288" height="74" rx="14" fill="#FFFFFF" filter="url(#cardSh3)"/>
+    <circle cx="36" cy="37" r="18" fill="#DCFCE7"/>
+    <text x="36" y="42" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">₹</text>
+    <text x="66" y="32" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="13" font-weight="600">Priya Sahu</text>
+    <text x="66" y="48" fill="#64748B" font-family="-apple-system, sans-serif" font-size="11">February 2026 • Monthly Fee</text>
+    <text x="272" y="32" text-anchor="end" fill="#0F172A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">₹2,000</text>
+    <rect x="230" y="40" width="42" height="18" rx="9" fill="#DCFCE7"/>
+    <text x="251" y="52" text-anchor="middle" fill="#15803D" font-family="-apple-system, sans-serif" font-size="9" font-weight="700">Paid</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(0, 580)">
+    <rect width="320" height="60" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="320" y2="0" stroke="#E2E8F0"/>
+    <circle cx="60" cy="24" r="4" fill="#94A3B8"/>
+    <text x="60" y="44" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="9">Home</text>
+    <circle cx="160" cy="24" r="4" fill="#94A3B8"/>
+    <text x="160" y="44" text-anchor="middle" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="9">Students</text>
+    <circle cx="260" cy="24" r="4" fill="#1976D2"/>
+    <text x="260" y="44" text-anchor="middle" fill="#1976D2" font-family="-apple-system, sans-serif" font-size="9" font-weight="600">Payments</text>
+  </g>
+</svg>
