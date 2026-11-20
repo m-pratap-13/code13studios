@@ -292,6 +292,74 @@ const appsData = [
       }
     ],
     screenshots: []
+  },
+  {
+    id: "arrow-escape",
+    name: "Arrow Escape : Find The Way",
+    category: "Games",
+    categoryClass: "badge-games",
+    status: "closed-testing",
+    statusLabel: "Closed Testing",
+    tagline: "Navigate, Turn & Escape the Maze",
+    developer: "Pratap Mondal",
+    storeName: "Code 13 Studios",
+    packageName: "com.code13studios.arrowescapefindtheway",
+    totalDownloads: "100+ Levels",
+    downloadsLabel: "Puzzle Stages",
+    downloadsTrend: "Handcrafted mazes",
+    activeDevices: "Active Testing",
+    devicesLabel: "Release Track",
+    devicesTrend: "Closed Beta QA",
+    activeUsers: "100% Offline",
+    usersLabel: "Connectivity",
+    usersTrend: "Zero Mobile Data",
+    rating: "Testing",
+    ratingLabel: "Stage",
+    ratingTrend: "Beta Feedback Open",
+    contentRating: "Everyone (3+)",
+    crashRate: "0.00% (Ultra Stable)",
+    anrRate: "0.00% (Ultra Responsive)",
+    conversionRate: "Closed Opt-in Track",
+    kpis: [],
+    description: "Arrow Escape : Find The Way is an addictive minimalist puzzle game that tests your logic and spatial foresight. Tap and guide each arrow out of intricate maze grids in the correct sequence without colliding. With over 100 handcrafted levels, tactile haptics, and relaxing soundscapes, it is the ultimate brain teaser for all ages.",
+    shortDescription: "Solve intricate arrow mazes, find the right escape sequence, and sharpen your mind.",
+    icon: "assets/apps/arrow-escape.png",
+    playStore: "https://play.google.com/store/apps/details?id=com.code13studios.arrowescapefindtheway",
+    features: [
+      "100+ Handcrafted Logic Puzzle Levels",
+      "Intuitive Directional Tap-to-Move Mechanics",
+      "100% Offline Gameplay — No Wi-Fi Needed",
+      "Tactile Haptic Feedback & Audio Effects",
+      "Smart Hints & Solution Assistance",
+      "Minimalist, Clean Geometric Aesthetics"
+    ],
+    detailedFeatures: [
+      {
+        title: "100+ Handcrafted Puzzle Mazes",
+        desc: "Progress from introductory single-turn paths to complex multi-directional arrow grids that challenge your spatial foresight and planning."
+      },
+      {
+        title: "Sequential Logic & Collision Avoidance",
+        desc: "Every arrow points in a set direction. Carefully deduce which arrow has an unobstructed exit before tapping to avoid collisions."
+      },
+      {
+        title: "100% Offline Playability",
+        desc: "Enjoy smooth, interruption-free gaming while traveling, commuting, or relaxing without requiring an active internet connection."
+      },
+      {
+        title: "Sensory Haptic & Sound Design",
+        desc: "Feel the tactile responsiveness with custom haptic impulses on each successful escape and soothing ambient audio feedback."
+      },
+      {
+        title: "Intelligent Hints & Solution Assistance",
+        desc: "Encountering an enigmatic level? Utilize built-in hints or optional rewarded boosts to reveal the next optimal move."
+      },
+      {
+        title: "Smooth Native Performance",
+        desc: "Built with optimized React Native and SVG graphics, ensuring silky 60 FPS animations and light battery usage across all Android devices."
+      }
+    ],
+    screenshots: []
   }
 ];
 
@@ -943,7 +1011,7 @@ function updateHomeJourneyStats() {
   let totalNumericDevices = 0;
   let totalNumericUsers = 0;
 
-  APPS_DATA.forEach(app => {
+  appsData.forEach(app => {
     // Total Downloads
     if (app.totalDownloads) {
       const cleanDownloads = app.totalDownloads.replace("+", "").trim().toLowerCase();
