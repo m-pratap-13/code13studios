@@ -3,389 +3,394 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — Arrow Escape : Find The Way | Code 13 Studios</title>
-  <meta name="description" content="Official Google Play Privacy Policy for Arrow Escape : Find The Way (com.code13studios.arrowescapefindtheway) developed by Pratap Mondal (Code 13 Studios).">
+  <title>Privacy Policy - Arrow Escape</title>
+  <meta name="description" content="Privacy Policy for Arrow Escape developed by Pratap Mondal (Code13 Studios).">
   <link rel="icon" type="image/png" href="../assets/logo/c13-logo.png">
-  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    :root {
+      --primary-color: #0F172A;
+      --accent-color: #2563EB;
+      --accent-hover: #1D4ED8;
+      --text-main: #334155;
+      --text-muted: #64748B;
+      --bg-body: #F8FAFC;
+      --bg-card: #FFFFFF;
+      --border-color: #E2E8F0;
+      --badge-bg: #EFF6FF;
+      --badge-text: #1E40AF;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text-main);
+      background-color: var(--bg-body);
+      padding: 40px 20px;
+    }
+
+    .top-nav-bar {
+      max-width: 860px;
+      margin: 0 auto 16px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-nav-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s ease;
+    }
+
+    .top-nav-link:hover {
+      color: var(--accent-color);
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+      color: #FFFFFF;
+      padding: 48px 40px;
+      text-align: left;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      background: rgba(37, 99, 235, 0.25);
+      color: #93C5FD;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(147, 197, 253, 0.3);
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: #94A3B8;
+      font-size: 15px;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 16px 40px;
+      background: #F1F5F9;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .meta-bar strong {
+      color: var(--primary-color);
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #F1F5F9;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    ul, ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: var(--accent-hover);
+    }
+
+    .highlight-card {
+      background: #F8FAFC;
+      border-left: 4px solid var(--accent-color);
+      padding: 16px 20px;
+      margin: 20px 0;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .highlight-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-box {
+      background: #EFF6FF;
+      border: 1px solid #BFDBFE;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 32px;
+    }
+
+    .contact-box h3 {
+      margin-top: 0;
+      color: #1E3A8A;
+    }
+
+    footer {
+      background: #F8FAFC;
+      border-top: 1px solid var(--border-color);
+      padding: 24px 40px;
+      text-align: center;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 12px;
+      }
+      header {
+        padding: 32px 20px;
+      }
+      header h1 {
+        font-size: 26px;
+      }
+      .meta-bar {
+        padding: 14px 20px;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .content {
+        padding: 24px 20px;
+      }
+      footer {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <!-- ========================================================================
-       Global Header
-       ======================================================================== -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <!-- Desktop Brand Logo -->
-      <a href="../index.html" class="brand-logo" aria-label="Code 13 Studios Home">
-        <img src="../assets/logo/c13-logo.png" alt="Code 13 Studios Icon" class="brand-icon" width="40" height="40">
-        <span class="brand-name">Code 13 Studios</span>
-      </a>
+  <div class="top-nav-bar">
+    <a href="../index.html" class="top-nav-link">← Back to Code 13 Studios</a>
+    <a href="index.html" class="top-nav-link">All Privacy Policies →</a>
+  </div>
 
-      <!-- Desktop Navigation -->
-      <nav class="desktop-nav" aria-label="Main Navigation">
-        <a href="../index.html" class="nav-link">Home</a>
-        <a href="../section/apps.html" class="nav-link">Apps</a>
-        <a href="../section/about.html" class="nav-link">About</a>
-        <a href="../section/contact.html" class="nav-link">Contact</a>
-      </nav>
+  <div class="container">
+    <header>
+      <div class="badge">Official Legal Document</div>
+      <h1>Privacy Policy for Arrow Escape</h1>
+      <p>Arrow Escape • Minimalist Puzzle Game</p>
+    </header>
 
-      <!-- Desktop Header Actions -->
-      <div class="header-action">
-        <!-- Privacy Policy Dropdown Button -->
-        <div class="header-privacy-dropdown-wrap">
-          <a href="index.html" class="btn-privacy-header active" aria-label="Privacy Policy for All Apps" id="header-privacy-btn">
-            <svg class="privacy-shield-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              <path d="m9 12 2 2 4-4"/>
-            </svg>
-            <span>Privacy Policy</span>
-            <svg class="dropdown-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="m6 9 6 6 6-6"/>
-            </svg>
-          </a>
-          <div class="header-privacy-menu" role="menu" aria-label="Privacy Policies for All Apps">
-            <div class="privacy-menu-header">
-              <span class="privacy-menu-badge">Privacy Center</span>
-              <span class="privacy-menu-title">Select App Policy</span>
-            </div>
-            <a href="index.html#all-apps" class="privacy-menu-item" role="menuitem">
-              <span class="menu-item-icon-wrap shield-icon-wrap">
-                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1 14.5l-3.5-3.5 1.41-1.41L11 13.67l5.59-5.59 1.41 1.41-7 7z"/></svg>
-              </span>
-              <div class="menu-item-text">
-                <strong>All Apps Overview</strong>
-                <small>General principles & developer standards</small>
-              </div>
-            </a>
-            <a href="my-tuition-fees.html" class="privacy-menu-item " role="menuitem">
-              <img src="../assets/apps/my-tuition-fees.svg" alt="My Tuition Fees" class="menu-item-app-icon" width="32" height="32">
-              <div class="menu-item-text">
-                <strong>My Tuition Fees</strong>
-                <small>Student records & offline storage</small>
-              </div>
-            </a>
-            <a href="next-hair-cut.html" class="privacy-menu-item " role="menuitem">
-              <img src="../assets/apps/next-hair-cut.svg" alt="Next Hair Cut" class="menu-item-app-icon" width="32" height="32">
-              <div class="menu-item-text">
-                <strong>Next Hair Cut</strong>
-                <small>Salon booking & location permissions</small>
-              </div>
-            </a>
-            <a href="abacus-mental-math.html" class="privacy-menu-item " role="menuitem">
-              <img src="../assets/apps/abacus-math.svg" alt="Abacus : Mental Math" class="menu-item-app-icon" width="32" height="32">
-              <div class="menu-item-text">
-                <strong>Abacus : Mental Math</strong>
-                <small>Mental arithmetic & speed drills</small>
-              </div>
-            </a>
-            <a href="offline-arena.html" class="privacy-menu-item " role="menuitem">
-              <img src="../assets/apps/offline-arena.svg" alt="Offline Arena" class="menu-item-app-icon" width="32" height="32">
-              <div class="menu-item-text">
-                <strong>Offline Arena</strong>
-                <small>100% offline — zero data collection</small>
-              </div>
-            </a>
-            <a href="arrow-escape.html" class="privacy-menu-item active" role="menuitem">
-              <img src="../assets/apps/arrow-escape.svg" alt="Arrow Escape" class="menu-item-app-icon" width="32" height="32">
-              <div class="menu-item-text">
-                <strong>Arrow Escape : Find The Way</strong>
-                <small>Minimalist maze & logic puzzle</small>
-              </div>
-            </a>
-            <div class="privacy-menu-footer">
-              <a href="index.html" class="privacy-menu-view-all">Open Full Privacy Center →</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Google Play Store Button -->
-        <a href="https://play.google.com/store/apps/details?id=com.code13studios.arrowescapefindtheway" target="_blank" rel="noopener noreferrer" class="btn-play-header" aria-label="Get on Google Play">
-          <svg class="play-icon-mini" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M5.3 3.6C5.1 4 5 4.5 5 5.2v21.6c0 .7.1 1.2.3 1.6l.1.1 12.1-12.1v-.3L5.3 3.6z" fill="#00E676"/>
-            <path d="M21.5 20.4l-4-4v-.3l4-4 .1.1 4.7 2.7c1.3.8 1.3 2 0 2.8l-4.8 2.7z" fill="#FFD600"/>
-            <path d="M17.5 16.1L5.3 28.4c.4.4 1.1.5 2 .1l14.2-8.1-4-4.3z" fill="#FF1744"/>
-            <path d="M17.5 15.9l4-4-14.2-8.1c-.9-.5-1.6-.3-2 .1l12.2 12z" fill="#00B0FF"/>
-          </svg>
-          <span>Get on Google Play</span>
-        </a>
-      </div>
-
-      <!-- Hamburger Menu Button (Mobile) -->
-      <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- ========================================================================
-       Mobile Navigation Drawer
-       ======================================================================== -->
-  <div class="mobile-drawer-overlay" id="drawer-overlay" aria-hidden="true"></div>
-  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
-    <div class="drawer-header">
-      <div class="drawer-brand">
-        <img src="../assets/logo/c13-logo.png" alt="Code 13 Studios" width="30" height="30" style="border-radius: 50%;">
-        <span>Code 13 Studios</span>
-      </div>
-      <button type="button" class="drawer-close-btn" id="drawer-close-btn" aria-label="Close menu">&times;</button>
+    <div class="meta-bar">
+      <div><strong>Developer:</strong> Pratap Mondal</div>
+      <div><strong>Studio:</strong> Code13 Studios</div>
+      <div><strong>Effective Date:</strong> November 20, 2026</div>
+      <div><strong>Last Updated:</strong> November 20, 2026</div>
     </div>
 
-    <div class="drawer-hero">
-      <img src="../assets/logo/c13-logo.png" alt="Code 13 Studios Logo" class="drawer-logo-big" width="72" height="72">
-      <h2 class="drawer-title">Code 13 Studios</h2>
-      <p class="drawer-tagline">Useful Apps for a Better Everyday</p>
-      <div class="drawer-highlights">
-        <span class="drawer-highlight-pill">Privacy First</span>
-        <span class="drawer-highlight-pill">Google Play Verified</span>
-        <span class="drawer-highlight-pill">Safe & Secure</span>
-      </div>
-    </div>
+    <div class="content">
+      <h2>1. Introduction</h2>
+      <p>
+        Welcome to <strong>Arrow Escape</strong> ("the Game", "the Application", "we", "us", or "our"), developed and published by <strong>Pratap Mondal</strong> under <strong>Code13 Studios</strong>. We are committed to protecting the privacy, security, and personal data of our users ("player", "user", or "you").
+      </p>
+      <p>
+        This Privacy Policy explains how our mobile application handles user information, what data may be processed, how it is used, and what rights you have regarding your information. By downloading, installing, or playing Arrow Escape, you agree to the collection and use of information in accordance with this Privacy Policy.
+      </p>
 
-    <div class="drawer-nav-box">
-      <h3 class="drawer-nav-title">Navigation</h3>
-      <ul class="drawer-nav-list">
-        <li class="drawer-nav-item">
-          <a href="../index.html">
-            <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span>
-            <span>Home</span>
-          </a>
-        </li>
-        <li class="drawer-nav-item">
-          <a href="../section/apps.html">
-            <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg></span>
-            <span>Apps</span>
-          </a>
-        </li>
-        <li class="drawer-nav-item active">
-          <a href="index.html">
-            <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>
-            <span>Privacy Policy</span>
-          </a>
-        </li>
-        <li class="drawer-nav-item">
-          <a href="../section/about.html">
-            <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></span>
-            <span>About</span>
-          </a>
-        </li>
-        <li class="drawer-nav-item">
-          <a href="../section/contact.html">
-            <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
-            <span>Contact</span>
-          </a>
-        </li>
+      <h2>2. Offline-First Architecture & Data Collection</h2>
+      <div class="highlight-card">
+        <p><strong>Offline-First Philosophy:</strong> Arrow Escape is designed to be fully playable without requiring an active internet connection. We do not require you to register an account, log in with an email address, or provide any personal identification to play the game.</p>
+      </div>
+
+      <h3>A. Information You Do NOT Provide:</h3>
+      <ul>
+        <li>We do <strong>not</strong> collect your real name, physical address, or phone number.</li>
+        <li>We do <strong>not</strong> require user registration, passwords, or personal login accounts.</li>
+        <li>We do <strong>not</strong> access your device contacts, camera, microphone, or photo library.</li>
+        <li>We do <strong>not</strong> collect or store credit card numbers, bank account numbers, or billing data.</li>
       </ul>
-      <div class="drawer-follow">
-        <p class="drawer-follow-label">Follow Us</p>
-        <div class="drawer-social-icons">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="drawer-social-btn" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
-          </a>
-        </div>
+
+      <h3>B. Information Stored Locally on Your Device:</h3>
+      <p>
+        The Application uses an embedded local database (SQLite via <code>expo-sqlite</code>) saved exclusively on your local device storage. This data includes:
+      </p>
+      <ul>
+        <li>Game level progression and unlock states (Levels 1 through 100).</li>
+        <li>Stars earned per level (1, 2, or 3 stars) and completion times.</li>
+        <li>Remaining player lives and hints count.</li>
+        <li>Career statistics (total moves made, levels completed).</li>
+        <li>Audio settings (sound effects toggle, haptics toggle, background music volume).</li>
+      </ul>
+      <p>
+        <strong>Note:</strong> All this data resides on your device. We do not maintain any central servers or external databases where your individual puzzle progression is mirrored or uploaded.
+      </p>
+
+      <h2>3. Third-Party Services & Advertising</h2>
+      <p>
+        To keep Arrow Escape free to play, the Application integrates industry-standard third-party services that may automatically collect certain diagnostic and non-personally identifiable information:
+      </p>
+
+      <h3>Google AdMob (Google Mobile Ads SDK)</h3>
+      <p>
+        The Game displays non-intrusive advertisements provided by Google AdMob, including banner ads and optional rewarded ads (which grant players extra hints, lives, or stars upon voluntary viewing).
+      </p>
+      <p>
+        The Google Mobile Ads SDK may automatically collect and process certain device information, including:
+      </p>
+      <ul>
+        <li><strong>Device Identifiers:</strong> Google Advertising ID (GAID on Android) or Identifier for Advertisers (IDFA on iOS).</li>
+        <li><strong>Device Technical Information:</strong> Device make and model, operating system version, screen resolution, mobile carrier, and language settings.</li>
+        <li><strong>Coarse Location:</strong> Generalized location derived from IP address (country or city level) to serve relevant regional ads.</li>
+        <li><strong>Ad Interaction & Telemetry:</strong> Ad impressions, click activity, video completion events, and fraud prevention telemetry.</li>
+      </ul>
+      <p>
+        For more information on how Google collects and uses your data, please review Google's official Privacy Policy:
+        <br>
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>
+        <br>
+        <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a>
+      </p>
+
+      <h2>4. How We Use Collected Information</h2>
+      <p>Any data processed through the Application or third-party SDKs is used solely for the following legitimate purposes:</p>
+      <ul>
+        <li><strong>Core Gameplay Delivery:</strong> Ensuring levels, stars, records, and sound preferences are remembered across gaming sessions.</li>
+        <li><strong>Ad Serving & Monetization:</strong> Providing banner ads and voluntary rewarded video ads so that the game remains completely free to enjoy.</li>
+        <li><strong>Security & Anti-Fraud:</strong> Detecting click fraud, automated bots, and protecting the integrity of the game and advertising ecosystem.</li>
+        <li><strong>Performance Optimization:</strong> Identifying crashes, memory leaks, and optimizing puzzle responsiveness.</li>
+      </ul>
+
+      <h2>5. Advertising Opt-Out & User Controls</h2>
+      <p>You have full control over interest-based advertising on your mobile device:</p>
+      <h3>On Android:</h3>
+      <ol>
+        <li>Open your device's <strong>Settings</strong> app.</li>
+        <li>Navigate to <strong>Google</strong> &gt; <strong>Ads</strong> (or <strong>Privacy</strong> &gt; <strong>Ads</strong>).</li>
+        <li>Tap <strong>Delete advertising ID</strong> or <strong>Reset advertising ID</strong>.</li>
+        <li>You can also enable <strong>Opt out of Ads Personalization</strong> if supported on your Android version.</li>
+      </ol>
+      <h3>On iOS:</h3>
+      <ol>
+        <li>Open your device's <strong>Settings</strong> app.</li>
+        <li>Navigate to <strong>Privacy &amp; Security</strong> &gt; <strong>Apple Advertising</strong> and toggle off <strong>Personalized Ads</strong>.</li>
+        <li>Navigate to <strong>Settings</strong> &gt; <strong>Privacy &amp; Security</strong> &gt; <strong>Tracking</strong> to manage app tracking permissions.</li>
+      </ol>
+
+      <h2>6. Children's Privacy (COPPA & GDPR-K Compliance)</h2>
+      <p>
+        Arrow Escape is a family-friendly puzzle game suitable for general audiences of all ages. We comply with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and the <strong>EU General Data Protection Regulation (GDPR)</strong>:
+      </p>
+      <ul>
+        <li>We do not knowingly collect, request, or solicit personal information from children under the age of 13 (or 16 in the EEA/UK).</li>
+        <li>The Game does not offer open chat rooms, social messaging, or public user profile features.</li>
+        <li>Advertisements delivered in child-directed or family modes comply with Google AdMob's Families Policy and do not use behavioral profiling.</li>
+      </ul>
+      <p>
+        If you are a parent or guardian and believe that your child has inadvertently provided personal information to us, please contact us at <code>support.code13.pratap@gmail.com</code> so we can promptly investigate and delete any such data.
+      </p>
+
+      <h2>7. Data Retention & Deletion</h2>
+      <p>
+        Because your puzzle game progress is stored strictly inside your device's local application sandbox, you retain complete ownership over your data at all times:
+      </p>
+      <ul>
+        <li><strong>Clearing Data:</strong> You can clear all game data and restart progression at any time by going to your phone's <em>Settings &gt; Apps &gt; Arrow Escape &gt; Storage &gt; Clear Storage / Clear Data</em>.</li>
+        <li><strong>Uninstalling the App:</strong> Uninstalling Arrow Escape permanently removes the SQLite database and all associated local preferences from your device.</li>
+      </ul>
+
+      <h2>8. Security Measures</h2>
+      <p>
+        We value your trust in using Arrow Escape. Because the Game operates offline-first and does not transmit personal data across unencrypted public networks, your game progression is kept safe inside your device's operating system sandbox.
+      </p>
+
+      <h2>9. Your Rights (GDPR & CCPA/CPRA)</h2>
+      <p>Depending on your geographic location, you may have specific privacy rights:</p>
+      <ul>
+        <li><strong>Right to Know / Access:</strong> You have the right to know what personal data is processed.</li>
+        <li><strong>Right to Erasure (Right to be Forgotten):</strong> You have the right to delete your data (achieved by clearing app storage or uninstalling the app).</li>
+        <li><strong>No Sale of Personal Data:</strong> We do <strong>not</strong> sell, rent, or trade your personal information to data brokers or third parties for monetary consideration.</li>
+      </ul>
+
+      <h2>10. Changes to This Privacy Policy</h2>
+      <p>
+        We may update our Privacy Policy periodically to reflect changes in our legal obligations, features, or advertising practices. Any updates will be posted on this page with an updated "Last Updated" date. We encourage you to review this Privacy Policy from time to time.
+      </p>
+
+      <div class="contact-box">
+        <h3>11. Contact Us & Support</h3>
+        <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy, please feel free to contact us:</p>
+        <p>
+          <strong>Developer:</strong> Pratap Mondal<br>
+          <strong>Studio:</strong> Code13 Studios<br>
+          <strong>Support Email:</strong> <a href="mailto:support.code13.pratap@gmail.com">support.code13.pratap@gmail.com</a><br>
+          <strong>Game:</strong> Arrow Escape
+        </p>
       </div>
     </div>
-    <p class="drawer-footer-copy">© 2026 Code 13 Studios. All rights reserved.</p>
-  </aside>
 
-  <!-- ========================================================================
-       Main Content
-       ======================================================================== -->
-  <main id="main-content">
+    <footer>
+      &copy; 2026 Code13 Studios • Pratap Mondal. All rights reserved.
+    </footer>
+  </div>
 
-    <!-- Page Hero Banner -->
-    <section class="page-hero-banner" aria-labelledby="privacy-page-heading">
-      <div class="container">
-        <div class="privacy-hero-content">
-          <div class="privacy-hero-badge">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              <path d="m9 12 2 2 4-4"/>
-            </svg>
-            <span>Google Play Policy Link</span>
-          </div>
-          <h1 class="page-hero-title" id="privacy-page-heading">Arrow Escape : Find The Way</h1>
-          <p class="page-hero-sub">Official Privacy Policy & Data Safety Disclosures</p>
-          
-          <div class="privacy-meta-info">
-            <span class="privacy-meta-pill"><strong>Package:</strong> com.code13studios.arrowescapefindtheway</span>
-            <span class="privacy-meta-pill"><strong>Developer:</strong> Pratap Mondal (Code 13 Studios)</span>
-            <span class="privacy-meta-pill"><strong>Category:</strong> Games</span>
-            <span class="privacy-meta-pill"><strong>Effective:</strong> November 2026</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Standalone App Policy Article -->
-    <section class="privacy-page-section" aria-label="Privacy Policy Details">
-      <div class="container">
-        
-        <article class="privacy-app-section active" style="display: block;">
-          <div class="privacy-policy-card">
-            
-            <div class="privacy-card-header">
-              <div class="privacy-app-identity">
-                <img src="../assets/apps/arrow-escape.svg" alt="Arrow Escape" class="privacy-app-avatar" width="48" height="48">
-                <div class="privacy-app-titles">
-                  <h2>Arrow Escape : Find The Way — Privacy Policy</h2>
-                  <span class="privacy-app-pkg">Package: com.code13studios.arrowescapefindtheway</span>
-                </div>
-              </div>
-              <div class="privacy-header-right">
-                <span class="badge badge-games">Games</span>
-                <a href="https://play.google.com/store/apps/details?id=com.code13studios.arrowescapefindtheway" target="_blank" rel="noopener noreferrer" class="btn-open-playstore">
-                  <span>Google Play</span>
-                  <span>↗</span>
-                </a>
-              </div>
-            </div>
-
-            <!-- Quick Summary Matrix Box -->
-            <div class="privacy-summary-box">
-              <div class="privacy-summary-title">
-                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-                <span>Arrow Escape Privacy Matrix</span>
-              </div>
-              <div class="privacy-summary-grid">
-                <div class="summary-grid-item">
-                  <span class="summary-label">Personal Data Collected</span>
-                  <span class="summary-val highlight-safe">ZERO (0%)</span>
-                </div>
-                <div class="summary-grid-item">
-                  <span class="summary-label">Internet Connectivity</span>
-                  <span class="summary-val highlight-safe">100% Offline Core</span>
-                </div>
-                <div class="summary-grid-item">
-                  <span class="summary-label">Device Permissions</span>
-                  <span class="summary-val highlight-safe">None (No Sensitive Permissions)</span>
-                </div>
-                <div class="summary-grid-item">
-                  <span class="summary-label">Advertising SDK</span>
-                  <span class="summary-val highlight-safe">Google AdMob (Non-Intrusive)</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Body Content -->
-            <div class="privacy-content-block">
-              <h3>1. Introduction</h3>
-              <p>Welcome to <strong>Arrow Escape : Find The Way</strong> ("the Game", "the Application", "we", "us", or "our"), developed and published by <strong>Pratap Mondal</strong> under <strong>Code 13 Studios</strong>. We are fully committed to protecting the privacy, security, and personal data of our players.</p>
-              <p>This Privacy Policy explains how our mobile application handles user information, what data may be processed, how it is used, and what rights you have regarding your information. By downloading, installing, or playing Arrow Escape, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
-            </div>
-
-            <div class="privacy-content-block">
-              <h3>2. Offline-First Philosophy & Local Storage</h3>
-              <div class="privacy-callout-card">
-                <span class="privacy-callout-icon">🧩</span>
-                <div class="privacy-callout-body">
-                  <strong>Zero Personal Data Collection Policy</strong>
-                  <p>Arrow Escape does NOT collect your real name, email address, phone number, contacts, camera, microphone, or precise location. There are no user registration requirements, mandatory accounts, or tracking scripts.</p>
-                </div>
-              </div>
-              <p>The Application uses an embedded local database (SQLite via <code>expo-sqlite</code>) saved exclusively on your local device storage. This data includes:</p>
-              <ul style="margin: 12px 0 16px 24px; line-height: 1.8;">
-                <li>Game level progression and unlock states (Levels 1 through 100).</li>
-                <li>Stars earned per level (1, 2, or 3 stars) and completion times.</li>
-                <li>Remaining player lives and hints count.</li>
-                <li>Career statistics (total moves made, levels completed).</li>
-                <li>Audio and sensory settings (sound effects toggle, haptics toggle, background music volume).</li>
-              </ul>
-              <p>All game progress resides locally on your device. We do not maintain any central servers or external databases where your individual puzzle progression is mirrored or uploaded.</p>
-            </div>
-
-            <div class="privacy-content-block">
-              <h3>3. Third-Party Services & Advertising (Google AdMob)</h3>
-              <p>To keep Arrow Escape free to play, the Application integrates industry-standard third-party services that may automatically collect diagnostic and non-personally identifiable telemetry:</p>
-              <p>The Game displays non-intrusive advertisements provided by <strong>Google AdMob</strong>, including banner ads and optional rewarded ads (which grant players extra hints or lives upon voluntary viewing).</p>
-              <p>The Google Mobile Ads SDK may automatically process certain device telemetry, including:</p>
-              <ul style="margin: 12px 0 16px 24px; line-height: 1.8;">
-                <li><strong>Device Identifiers:</strong> Google Advertising ID (GAID on Android) or Identifier for Advertisers (IDFA on iOS).</li>
-                <li><strong>Device Technical Information:</strong> Device make and model, operating system version, screen resolution, and language settings.</li>
-                <li><strong>Coarse Location:</strong> Generalized location derived from IP address (country or city level) to serve relevant regional ads.</li>
-                <li><strong>Ad Interaction & Telemetry:</strong> Ad impressions, click activity, video completion events, and fraud prevention telemetry.</li>
-              </ul>
-              <p>For more details on how Google handles advertising data, review Google's official policies at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a>.</p>
-            </div>
-
-            <div class="privacy-content-block">
-              <h3>4. Children & Families Policy Compliant (COPPA)</h3>
-              <p>Arrow Escape is designed as a family-friendly puzzle game suitable for players of all ages, including children. We strictly comply with the Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy requirements. We do not knowingly collect personal contact information from children under 13.</p>
-            </div>
-
-            <div class="privacy-content-block">
-              <h3>5. Data Retention & Deletion</h3>
-              <p>Because all gameplay progress is stored locally in your device's sandbox storage, you have absolute control over your data. You may delete your data at any time by clearing the Application's storage in your device Settings, or by uninstalling the Game.</p>
-            </div>
-
-            <!-- Bottom Cross Link -->
-            <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
-              <a href="index.html" class="btn-privacy-contact" style="display: inline-flex; align-items: center; gap: 8px;">
-                <span>← Open Full Privacy Center</span>
-              </a>
-              <a href="../section/app-details.html?app=arrow-escape" class="btn-open-playstore" style="padding: 10px 18px;">
-                <span>View App Details</span>
-              </a>
-            </div>
-
-          </div>
-        </article>
-
-        <!-- Privacy Support & Data Request Callout -->
-        <div class="privacy-help-card">
-          <div class="privacy-help-info">
-            <h3>Have a Privacy Question or Data Deletion Request?</h3>
-            <p>We are always available to help. If you have any inquiries regarding your privacy or wish to request data erasure for Arrow Escape, reach out directly to developer Pratap Mondal.</p>
-          </div>
-          <div class="privacy-help-actions">
-            <a href="../section/contact.html" class="btn-privacy-contact">Contact Us Form</a>
-            <a href="mailto:contact.pratap13mondal@gmail.com" class="btn-privacy-email">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-              <span>Email Developer</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ========================================================================
-       Global Footer
-       ======================================================================== -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand-wrap">
-        <a href="../index.html" class="footer-brand-logo">
-          <img src="../assets/logo/c13-logo.png" alt="Code 13 Studios" class="footer-brand-icon" width="28" height="28">
-          <span>Code 13 Studios</span>
-        </a>
-        <span class="footer-copy">© 2026 Code 13 Studios. All rights reserved.</span>
-      </div>
-
-      <div class="footer-right">
-        <nav class="footer-nav" aria-label="Footer Navigation">
-          <a href="../index.html" class="footer-link">Home</a>
-          <a href="../section/apps.html" class="footer-link">Apps</a>
-          <a href="index.html" class="footer-link">Privacy Policy</a>
-          <a href="../section/about.html" class="footer-link">About</a>
-          <a href="../section/contact.html" class="footer-link">Contact</a>
-        </nav>
-
-        <div class="footer-social">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
-          </a>
-          <a href="https://play.google.com/store/apps/developer?id=Pratap+Mondal" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Google Play Developer Profile">
-            <svg viewBox="0 0 32 32"><path d="M5.3 3.6C5.1 4 5 4.5 5 5.2v21.6c0 .7.1 1.2.3 1.6l.1.1 12.1-12.1v-.3L5.3 3.6z" fill="#00E676"/><path d="M21.5 20.4l-4-4v-.3l4-4 .1.1 4.7 2.7c1.3.8 1.3 2 0 2.8l-4.8 2.7z" fill="#FFD600"/><path d="M17.5 16.1L5.3 28.4c.4.4 1.1.5 2 .1l14.2-8.1-4-4.3z" fill="#FF1744"/><path d="M17.5 15.9l4-4-14.2-8.1c-.9-.5-1.6-.3-2 .1l12.2 12z" fill="#00B0FF"/></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="../js/script.js"></script>
 </body>
 </html>
