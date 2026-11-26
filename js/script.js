@@ -304,7 +304,7 @@ const appsData = [
     developer: "Pratap Mondal",
     storeName: "Code 13 Studios",
     packageName: "com.code13studios.arrowescapefindtheway",
-    totalDownloads: "100+ Levels",
+    totalDownloads: "500+ Levels",
     downloadsLabel: "Puzzle Stages",
     downloadsTrend: "Handcrafted mazes",
     activeDevices: "Active Testing",
@@ -321,12 +321,12 @@ const appsData = [
     anrRate: "0.00% (Ultra Responsive)",
     conversionRate: "Closed Opt-in Track",
     kpis: [],
-    description: "Arrow Escape : Find The Way is an addictive minimalist puzzle game that tests your logic and spatial foresight. Tap and guide each arrow out of intricate maze grids in the correct sequence without colliding. With over 100 handcrafted levels, tactile haptics, and relaxing soundscapes, it is the ultimate brain teaser for all ages.",
+    description: "Arrow Escape : Find The Way is an addictive minimalist puzzle game that tests your logic and spatial foresight. Tap and guide each arrow out of intricate maze grids in the correct sequence without colliding. With over 500 handcrafted levels, tactile haptics, and relaxing soundscapes, it is the ultimate brain teaser for all ages.",
     shortDescription: "Solve intricate arrow mazes, find the right escape sequence, and sharpen your mind.",
     icon: "assets/apps/arrow-escape.png",
     playStore: "https://play.google.com/store/apps/details?id=com.code13studios.arrowescapefindtheway",
     features: [
-      "100+ Handcrafted Logic Puzzle Levels",
+      "500+ Handcrafted Logic Puzzle Levels",
       "Intuitive Directional Tap-to-Move Mechanics",
       "100% Offline Gameplay — No Wi-Fi Needed",
       "Tactile Haptic Feedback & Audio Effects",
@@ -335,7 +335,7 @@ const appsData = [
     ],
     detailedFeatures: [
       {
-        title: "100+ Handcrafted Puzzle Mazes",
+        title: "500+ Handcrafted Puzzle Mazes",
         desc: "Progress from introductory single-turn paths to complex multi-directional arrow grids that challenge your spatial foresight and planning."
       },
       {
